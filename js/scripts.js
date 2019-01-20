@@ -7,7 +7,7 @@ var navigate = (function() {
   });
 })();
 
-/*(function() {
+(function() {
   const passwordField = document.getElementById("password-input");
   const errorField = document.getElementById("password-caps-warning");
 
