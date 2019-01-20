@@ -1,4 +1,4 @@
-var navigate = (function() {
+/*var navigate = (function() {
 	$('.dd').toggle();
 	$('.dd_btn').click(function() {
 		var dataName = $(this).attr('data-name');
@@ -6,3 +6,16 @@ var navigate = (function() {
 		$('.' + dataName).toggle();
 	});
 })();
+
+(function() {
+  const passwordField = document.getElementById("password-input");
+  const errorField = document.getElementById("password-caps-warning");
+
+  passwordField.onkeydown = function(e) {
+    if (e.getModifierState("CapsLock")) {
+      errorField.classList.remove("d-none");
+    } else {
+      errorField.classList.add("d-none");
+    }
+  }
+}());
