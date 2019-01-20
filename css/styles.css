@@ -30,12 +30,12 @@ body {
   margin-top: 2em;
 }
 
-/*.notice a {
+.notice a {
   color: #e0f2f1;
   text-decoration: underline;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
