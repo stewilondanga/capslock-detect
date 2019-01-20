@@ -24,13 +24,13 @@ body {
   padding: 2em;
 }
 
-/*.notice {
+.notice {
   color: #e0f2f1;
   text-align: center;
   margin-top: 2em;
 }
 
-.notice a {
+/*.notice a {
   color: #e0f2f1;
   text-decoration: underline;
 }
