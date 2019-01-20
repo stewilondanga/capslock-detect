@@ -17,7 +17,6 @@ body {
   height: 1.5em;
 }
 
-/*
 .container {
   width: 25vw;
   margin-top: 2em;
@@ -25,7 +24,7 @@ body {
   padding: 2em;
 }
 
-.notice {
+/*.notice {
   color: #e0f2f1;
   text-align: center;
   margin-top: 2em;
