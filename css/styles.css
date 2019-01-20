@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,28 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body {
+  background-color: #009688;
+}
+
+.container {
+  width: 25vw;
+  margin-top: 2em;
+  background-color: #e0f2f1;
+  padding: 2em;
+}
+
+.notice {
+  color: #e0f2f1;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.notice a {
+  color: #e0f2f1;
+  text-decoration: underline;
 }
 
 .containers {
